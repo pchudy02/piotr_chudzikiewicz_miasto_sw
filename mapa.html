@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang=pl>
+<head>
+<title>Responsywność obrazó i tekstu</title>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<link rel="shortcut icon" href="img/Flaga.svg">
+</head>
+
+<body>
+    <div class="upnav" id="myUpnav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Strona główna</a>
+        <a href="#">Historia miasta</a>
+        <a href="#">Mapa miasta</a>
+        <a href="https://przemysl.pl/7/strona-glowna.html" target="blank">Strona miasta Przemyśl</a>
+    </div>
+    <div id=main>
+        <div id=Naglowek>
+            <a href="https://pl.wikipedia.org/wiki/Herb_Przemy%C5%9Bla" target="blank"><img src="img/Herb.png" alt="Herb Przemyśla" class="Herb"></a>Mapa Przemyśla<span onclick="openNav()"><img src="img/menu.jpg" alt=Menu class=Herb></span>
+        </div>
+        <div id=mapa>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82436.31024370623!2d22.714017242603425!3d49.78353189321022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473b7edf1fb668d1%3A0x1efc1701bb993ff0!2zUHJ6ZW15xZts!5e0!3m2!1spl!2spl!4v1591800258780!5m2!1spl!2spl" allowfullscreen="0" aria-hidden="false" id=mapa1></iframe> 
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
