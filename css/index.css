@@ -1,6 +1,6 @@
 body        {margin: 1%;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 0.5cm;
+            font-size: max(0.5cm, 1vw);
             }
 ol          {list-style-type: upper-roman;
             }
@@ -133,6 +133,8 @@ th          {background-color: rgb(204, 204, 204);
             -webkit-animation-duration: 1.5s;
             animation-name: fade;
             animation-duration: 1.5s;
+            }
+.gall       {width: 100%;
             }
 @-webkit-keyframes fade {from {opacity: .4}
             to {opacity: 1}
