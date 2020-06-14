@@ -9,18 +9,22 @@
 </head>
 
 <body>
-    <div class="upnav" id="myUpnav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="historia.html">Historia miasta</a>
-        <a href="zabytki.html">Więcej zabyków - Galeria</a>
-        <a href="mapa.html">Mapa miasta</a>
-        <a href="https://przemysl.pl/7/strona-glowna.html" target="blank">Strona miasta Przemyśl</a>
-      </div>
-    <div id=main>
-        <div id=Naglowek>
-            <a href="https://pl.wikipedia.org/wiki/Herb_Przemy%C5%9Bla"><img src="img/Herb.png" alt="Herb Przemyśla" class="Herb"></a>Przemyśl<span onclick="openNav()"><img src="img/menu.jpg" alt=Menu class=Herb></span>
+    <div id=Naglowek>
+        <a href="https://pl.wikipedia.org/wiki/Herb_Przemy%C5%9Bla"><img src="img/Herb.png" alt="Herb Przemyśla" class="Herb"></a>Przemyśl<span onclick="openNav()"><img src="img/menu.jpg" alt=Menu class="Herb"></span>
+        <div class="upnav" id="myUpnav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="historia.html">Historia miasta</a>
+            <a href="zabytki.html">Więcej zabyków - Galeria</a>
+            <a href="mapa.html">Mapa miasta</a>
+            <a href="https://przemysl.pl/7/strona-glowna.html" target="blank">Strona miasta Przemyśl</a>
         </div>
+    </div>
+    <div id=uplink>
+        <a href="#up"><img src="img/strzalka.jpg"></a>
+    </div>
+    <div id=main>
             <div class=Naglowek1>
+                <a name="up"></a>
                 <h2>Informacje Ogólne</h2>
             </div>
                 <div>
@@ -64,31 +68,33 @@
                     Swoją siedzibę ma tutaj Wojewódzki Urząd Ochrony Zabytków.
                     <a href="zabytki.html" class=link>Galeria</a>
                     <br>
-                    <b>Lista zabytków:</b>
-                    <ul>
-                        <li><b>Zamki, pałace i dworki</b></li>
-                        <ol>
-                            <li>Zamek Kazimierzowski</li>
-                            <li>Pałac Lubomirskich</li>
-                            <li>Pałac Biskupów Greckokatolickich</li>
-                            <li>Dworek Stanisława Orzechowskiego</li>
-                            <li>Pałac Biskupów Rzymskokatolickich</li>
-                        </ol>
-                        <br>
-                        <li><b>Kościoły i kalsztory</b></li>
-                        <ol>
-                            <li>Archikatedra rzymskokatolicka Wniebowzięcia Najświętszej Maryi Panny i św. Jana Chrzciciela</li>
-                            <li>Kościół św. Marii Magdaleny i klasztor oo. franciszkanów</li>
-                            <li>Kościół św. Teresy i klasztor oo. karmelitów</li>
-                            <li>Kościół św. Antoniego Padewskiego i klasztor oo. franciszkanów reformatów</li>
-                            <li>Kościół Trójcy Przenajświętszej i klasztor ss. benedyktynek</li>
-                            <li>Kościół św. Józefa (Salezjanie)</li>
-                            <li>Kościół Matki Bożej Szkaplerznej i klasztor ss. karmelitanek bosych</li>
-                            <li>Kościół Matki Bożej Nieustającej Pomocy</li>
-                            <li>Kościół św. Jana Apostoła</li>
-                            <li>Kościół Metodystów</li>
-                        </ol>
-                    </ul>
+                    <div class=lista>
+                        Lista zabytków:
+                        <ul>
+                            <li><b>Zamki, pałace i dworki</b></li>
+                            <ol>
+                                <li>Zamek Kazimierzowski</li>
+                                <li>Pałac Lubomirskich</li>
+                                <li>Pałac Biskupów Greckokatolickich</li>
+                                <li>Dworek Stanisława Orzechowskiego</li>
+                                <li>Pałac Biskupów Rzymskokatolickich</li>
+                            </ol>
+                            <br>
+                            <li><b>Kościoły i kalsztory</b></li>
+                            <ol>
+                                <li>Archikatedra rzymskokatolicka Wniebowzięcia Najświętszej Maryi Panny i św. Jana Chrzciciela</li>
+                                <li>Kościół św. Marii Magdaleny i klasztor oo. franciszkanów</li>
+                                <li>Kościół św. Teresy i klasztor oo. karmelitów</li>
+                                <li>Kościół św. Antoniego Padewskiego i klasztor oo. franciszkanów reformatów</li>
+                                <li>Kościół Trójcy Przenajświętszej i klasztor ss. benedyktynek</li>
+                                <li>Kościół św. Józefa (Salezjanie)</li>
+                                <li>Kościół Matki Bożej Szkaplerznej i klasztor ss. karmelitanek bosych</li>
+                                <li>Kościół Matki Bożej Nieustającej Pomocy</li>
+                                <li>Kościół św. Jana Apostoła</li>
+                                <li>Kościół Metodystów</li>
+                            </ol>
+                        </ul>
+                    </div>
                 </div>
 
             <br>

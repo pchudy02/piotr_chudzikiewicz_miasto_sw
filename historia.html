@@ -9,18 +9,34 @@
 </head>
 
 <body>
-    <div class="upnav" id="myUpnav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Strona główna</a>
-        <a href="zabytki.html">Więcej zabyków - Galeria</a>
-        <a href="mapa.html">Mapa miasta</a>
-        <a href="https://przemysl.pl/7/strona-glowna.html" target="blank">Strona miasta Przemyśl</a>
-      </div>
+    <div id=Naglowek>
+        <a href="https://pl.wikipedia.org/wiki/Herb_Przemy%C5%9Bla"><img src="img/Herb.png" alt="Herb Przemyśla" class="Herb"></a>Historia<span onclick="openNav()"><img src="img/menu.jpg" alt=Menu class=Herb></span>
+        <div class="upnav" id="myUpnav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Strona główna</a>
+            <a href="zabytki.html">Więcej zabyków - Galeria</a>
+            <a href="mapa.html">Mapa miasta</a>
+            <a href="https://przemysl.pl/7/strona-glowna.html" target="blank">Strona miasta Przemyśl</a>
+        </div>
+    </div>
+    <div id=uplink>
+        <a href="#up"><img src="img/strzalka.jpg"></a>
+    </div>
     <div id=main>
-        <div id=Naglowek>
-            <a href="https://pl.wikipedia.org/wiki/Herb_Przemy%C5%9Bla"><img src="img/Herb.png" alt="Herb Przemyśla" class="Herb"></a>Historia Przemyśla<span onclick="openNav()"><img src="img/menu.jpg" alt=Menu class=Herb></span>
+        <div class=lista>
+            <ul>
+                <li><a href="#1" class="link">Pierwsze wzmianki</a></li>
+                <li><a href="#2" class="link">Średniowiecze</a></li>
+                <li><a href="#3" class="link">Lata 1340-1772</a></li>
+                <li><a href="#4" class="link">Lata 1772-1918</a></li>
+                <li><a href="#5" class="link">Lata 1918-1945</a></li>
+                <li><a href="#6" class="link">Lata 1945–1989</a></li>
+                <li><a href="#7" class="link">Lata 1989-teraz</a></li>
+            </ul>
         </div>
             <div class=Naglowek1>
+                <a name="up"></a>
+                <a name=1></a>
                 <h2>Pierwsze wzmianki</h2>
             </div>
                 <div>
@@ -33,6 +49,7 @@
 
             <br>
             <div class=Naglowek1>
+                <a name=2></a>
                 <h2>Średniowiecze</h2>
             </div>
                 <div>
@@ -43,6 +60,7 @@
 
             <br>
             <div class=Naglowek1>
+                <a name=3></a>
                 <h2>Lata 1340-1772</h2>
             </div>
                 <div>
@@ -51,6 +69,7 @@
 
             <br>
             <div class=Naglowek1>
+                <a name=4></a>
                 <h2>Lata 1772-1918</h2>
             </div>
                 <div>
@@ -61,6 +80,7 @@
 
             <br>
             <div class=Naglowek1 >
+                <a name=5></a>
                 <h2>Lata 1918-1945</h2>
             </div>
                 <div>
@@ -73,6 +93,7 @@
             
             <br>
             <div class=Naglowek1>
+                <a name=6></a>
                 <h2>Lata 1945–1989</h2>
             </div>
                 <div>
@@ -85,6 +106,7 @@
             
             <br>
             <div class=Naglowek1>
+                <a name=7></a>
                 <h2>Lata 1989-teraz</h2>
             </div>
                 <div>

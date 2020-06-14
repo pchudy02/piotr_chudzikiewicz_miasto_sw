@@ -1,11 +1,15 @@
+var h = document.getElementById("Naglowek").offsetHeight;
+h = h * 1;
+h = h + "px";
+document.getElementById("main").style.marginTop = h;
 function openNav() {
-    document.getElementById("myUpnav").style.height = "200px";
-    document.getElementById("main").style.marginTop = "200px";
+    document.getElementById("myUpnav").style.height = "min(23.6vh, 23.6vw)";
+    document.getElementById("main").style.marginTop = h;
 }
 
 function closeNav() {
     document.getElementById("myUpnav").style.height = "0";
-    document.getElementById("main").style.marginTop = "0";
+    document.getElementById("main").style.marginTop = h;
 }
 
 var x = 0;
